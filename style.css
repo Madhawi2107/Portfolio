@@ -1,0 +1,135 @@
+header{
+    
+    width:100%;
+    
+}
+nav .name{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: x-large;
+    position: relative;
+    left:2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 2rem;
+    top:2rem;
+
+}
+
+
+.menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color:white;
+    background-color:black;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+
+.Para-text{
+    max-width: 500px;
+    position: absolute;
+    top:30%;
+    left:20%;
+}
+.Para-text h1{
+    font-size: 5em;
+}
+.Para-text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.name a:hover{
+    background: transparent;
+    transition: 0.4s;
+    border:1px solid black;
+    color: black;
+
+}
+
+.box{
+    width:60%;
+    height: 70%;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    background:rgb(255, 255, 153);
+    z-index: -2;
+}
+
+#image{
+  width:350px;
+  height:70%;
+  position: absolute;
+  right:10%;
+  top:8rem;
+  z-index: -2;
+}
+
+.section2{
+  position: relative;
+  top:30rem;
+  width: 100%;
+  height:30rem;
+  background-color:teal;
+  font-family:'Times New Roman', Times, serif;
+  font-size:3em;
+  left:1rem;
+  right:1rem;
+  display: flex;
+  justify-content: center;
+  z-index: -2;
+  color:rgb(255, 255, 153);
+}
+#atext{
+ font-size:20px;
+ position: relative;
+ left: 2rem;
+ margin: 0rem 15rem;
+ bottom:5rem;
+ color:rgb(255, 255, 153);
+ top:5rem;
+}
+
+.section3{
+    position: relative;
+    top:13rem;
+    width: 100%;
+  height:10rem;
+  background-color:rgb(255, 255, 153);
+  font-family:'Times New Roman', Times, serif;
+  font-size:3em;
+  left:1rem;
+  right:1rem;
+  display: flex;
+  justify-content: center;
+  justify-items:auto;
+  z-index: -2;
+  color:teal;
+
+  }
+
+  #ctext{
+    font-size:20px;
+    position: absolute;
+    top:72rem;
+    left:28rem;
+    color:teal;
+  }
+
+  #ctext li{
+      text-decoration: none;
+      list-style: none;
+      text-align: center;
+  }
+
+
+
+
